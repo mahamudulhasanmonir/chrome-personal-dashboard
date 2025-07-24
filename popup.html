@@ -2,38 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Dashboard</title>
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
   <div class="dashboard">
     <header>
-      <h1>🪐Personal Dashboard</h1>
+      <h1>🪐 My Dashboard</h1>
+      <button id="toggleTheme">🌓</button>
     </header>
 
     <div class="cards">
       <div class="card">
         <h2>📝 Notes</h2>
-        <p>Quick access to your ideas.</p>
-        <button>Add Note</button>
+        <textarea id="noteInput" placeholder="Write something..."></textarea>
+        <button id="saveNote">Save</button>
       </div>
 
       <div class="card">
         <h2>🌤 Weather</h2>
-        <p>See current conditions.</p>
-        <button>View</button>
+        <input type="text" id="cityInput" placeholder="Enter city..." />
+        <button id="getWeather">Get Weather</button>
+        <div id="weatherResult"></div>
       </div>
 
       <div class="card">
-        <h2>⏰ Reminders</h2>
-        <p>Don’t miss what matters.</p>
-        <button>Set</button>
+        <h2>⏰ Reminder</h2>
+        <input type="text" id="reminderText" placeholder="Reminder text" />
+        <input type="number" id="reminderTime" placeholder="In seconds" />
+        <button id="setReminder">Set</button>
       </div>
     </div>
 
     <footer>
-      <p>🔒 Private & Local</p>
+      <p>🔒 All data is private and local</p>
     </footer>
   </div>
 
