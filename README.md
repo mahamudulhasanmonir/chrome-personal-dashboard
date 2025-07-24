@@ -2,7 +2,7 @@
 
 A personal Chrome extension that brings together your most-used tools into a beautiful, private, and interactive dashboard.
 
-![Banner](https://raw.githubusercontent.com/yourusername/my-dashboard-extension/main/preview.png) <!-- Replace with actual image if available -->
+<img width="321" height="544" alt="Screenshot 2025-07-24 141100" src="https://github.com/user-attachments/assets/c494da6d-259b-48d1-9c81-9c33d446a75a" /> <!-- Replace with actual image if available -->
 
 ---
 
