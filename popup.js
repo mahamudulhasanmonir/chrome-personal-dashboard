@@ -25,7 +25,7 @@ const weatherResult = document.getElementById("weatherResult");
 
 getWeatherBtn.addEventListener("click", async () => {
   const city = cityInput.value;
-  const apiKey = "78e75eb47dff8f72d2d49845a74b3c31"; // Replace with real API key
+  const apiKey = "Add Your API key here"; // Replace with real API key
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   const res = await fetch(url);
